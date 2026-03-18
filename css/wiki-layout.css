@@ -96,7 +96,7 @@ main {
   margin-bottom: 16px;
 }
 
-.content-section > p,
+.content-section>p,
 .section-desc {
   color: #666;
   line-height: 1.8;
@@ -113,7 +113,7 @@ main {
 .gallery-grid img {
   width: 100%;
   aspect-ratio: 1 / 1;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 4px;
 }
 
